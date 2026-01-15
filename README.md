@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a **Proof-of-Concept (POC)** implementation for human identification using point cloud data, based on the MMIDNet architecture from the research paper "Human Identification Using MMWAVE RADAR".
+This is a **Proof-of-Concept (POC)** implementation for human identification using point cloud data, based on the MMIDNet architecture from the research paper "MMIDNet: Secure Human Identification Using Millimeter-wave Radar and Deep Learning" (Shen et al., 2024).
 
 **What it does:**
 - Uses the MPI-FAUST 3D mesh dataset to simulate mmWave radar point cloud sequences
@@ -52,6 +52,27 @@ This is a **Proof-of-Concept (POC)** implementation for human identification usi
    - Evaluation and results
 
 That's it! The notebook handles everything automatically.
+
+---
+
+## Reference
+
+This project implements the MMIDNet architecture from:
+
+**Shen, Z., Nunez-Yanez, J., & Dahnoun, N. (2024). MMIDNet: Secure Human Identification Using Millimeter-wave Radar and Deep Learning. In *2024 13th Mediterranean Conference on Embedded Computing (MECO)* (pp. 1-7). Budva, Montenegro: IEEE. doi: 10.1109/MECO62516.2024.10577920**
+
+```bibtex
+@inproceedings{Shen:MECO:2024,
+  title = {{MMIDNet}: Secure Human Identification Using Millimeter-wave Radar and Deep Learning},
+  author = {Shen, Z. and Nunez-Yanez, J. and Dahnoun, N.},
+  booktitle = {2024 13th Mediterranean Conference on Embedded Computing (MECO)},
+  address = {Budva, Montenegro},
+  publisher = {IEEE},
+  pages = {1--7},
+  year = {2024},
+  doi = {10.1109/MECO62516.2024.10577920}
+}
+```
 
 ---
 
